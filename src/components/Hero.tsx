@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { ChevronDown, Mail, Linkedin, Github } from "lucide-react";
 
 const Hero = () => {
@@ -23,6 +24,20 @@ const Hero = () => {
             <Badge variant="secondary" className="bg-white/10 text-white border-white/20 hover:bg-white/20 px-4 py-2">
               Top 5% at IIMC
             </Badge>
+          </div>
+
+          {/* Profile Photo */}
+          <div className="mb-12">
+            <Avatar className="h-40 w-40 mx-auto ring-4 ring-white/20 shadow-glow">
+              <AvatarImage 
+                src="/placeholder.svg" 
+                alt="Profile photo"
+                className="object-cover"
+              />
+              <AvatarFallback className="bg-gradient-primary text-white text-4xl font-semibold">
+                PM
+              </AvatarFallback>
+            </Avatar>
           </div>
 
           {/* Main heading */}
