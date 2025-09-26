@@ -5,13 +5,13 @@ import { ChevronDown, Mail, Linkedin, Github } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen bg-gradient-hero relative overflow-hidden flex items-center justify-center">
+    <section className="min-h-screen bg-gradient-hero relative overflow-hidden flex items-center justify-center pt-20">
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute inset-0 bg-white/5 backdrop-blur-3xl"></div>
       </div>
       
-      <div className="container mx-auto px-6 text-center text-white relative z-10">
+      <div className="container mx-auto px-6 text-center text-white relative z-10 mt-16">
         <div className="max-w-4xl mx-auto">
           {/* Achievement badges */}
           <div className="flex flex-wrap justify-center gap-3 mb-8">
@@ -82,7 +82,7 @@ const Hero = () => {
             <Button 
               variant="outline" 
               size="lg"
-              className="border-white/30 text-white hover:bg-white/10 shadow-elegant text-lg px-8 py-6"
+              className="bg-white/10 border-white/30 text-white hover:bg-white/20 hover:border-white/50 shadow-elegant text-lg px-8 py-6"
             >
               <Linkedin className="mr-2 h-5 w-5" />
               Connect on LinkedIn
