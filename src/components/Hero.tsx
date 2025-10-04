@@ -30,7 +30,7 @@ const Hero = () => {
           <div className="mb-12">
             <Avatar className="h-40 w-40 mx-auto ring-4 ring-white/20 shadow-glow">
               <AvatarImage 
-                src="/placeholder.svg" 
+                src="/1.jpg" 
                 alt="Profile photo"
                 className="object-cover"
               />
